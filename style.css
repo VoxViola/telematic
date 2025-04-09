@@ -9,6 +9,7 @@
 
 .text {
     display: flex;
+    flex-direction: column;
     color: white;
     justify-content: space-evenly;
 }
@@ -17,18 +18,22 @@
     font-weight: lighter;
     font-size: xx-large;
     text-wrap: nowrap;
-    padding: 2% 3%;
+    padding: 0% 3%;
+    padding-top: 2%;
 }
 
 .quote  {
     font-style: italic;
-    padding: 3% 3%;
+    padding: 0% 3%;
+    padding-bottom: 3%;
+    padding-top: 1%;
 }
 
 .logoLinks {
     display: flex;
     border-color: white;
     justify-content: center;
+    padding: 0% 10%;
 }
 
 .links {
@@ -36,7 +41,7 @@
     flex-direction: row;
     justify-content: center;
     color: #a0a0a0;
-    padding: 2% 0%;
+    padding: 2% 50%;
     border-top: solid #a0a0a0;
     
 
