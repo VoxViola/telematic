@@ -3,7 +3,7 @@
 }
 
 .header {
-    display: block;
+    display: flexbox;
     background-color: #222630;
 }
 
@@ -26,7 +26,9 @@
 }
 
 .logoLinks {
+    display: flex;
     border-color: white;
+    justify-content: center;
 }
 
 .links {
