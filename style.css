@@ -43,10 +43,7 @@ html, body {
 }
 
 .logoLinks {
-    display: flex;
     border-color: white;
-    justify-content: center;
-    padding: 0% 10%;
 }
 
 .links {
@@ -54,7 +51,7 @@ html, body {
     flex-direction: row;
     justify-content: center;
     color: #a0a0a0;
-    padding: 2% 50%;
+    padding: 2% 0%;
     border-top: solid #a0a0a0;
     
 
@@ -62,7 +59,8 @@ html, body {
 }
 
 .link {
-    padding: 0% 10%;
+    padding: 0% 4%;
+    font-size: large;
     
 }
 
