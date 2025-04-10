@@ -9,10 +9,13 @@ html, body {
     padding: 0;
     height: 100%;
     background-image: url(./pictures/tcWebBackground3.jpg);
+    background-size: cover;
 }
 
 .top {
     background-color: #222630;
+    margin: 0%;
+    padding: 0%;
 }
 
 .header {
