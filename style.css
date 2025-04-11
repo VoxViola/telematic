@@ -63,7 +63,7 @@ a, a:link, a:visited, a:active {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    color: #a0a0a0;
+    color: #ffffff;
     border-top: .1rem solid #a0a0a0;
     gap: 3%;
     
