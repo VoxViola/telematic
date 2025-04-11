@@ -13,15 +13,7 @@ html, body {
     background-size: auto 100%;
 }
 
-a:link {
-    color: #a0a0a0;
-}
-
-a:visited {
-    color: #a0a0a0;
-}
-
-a:active {
+a, a:link, a:visited, a:active {
     color: #a0a0a0;
 }
 
@@ -69,7 +61,7 @@ a:active {
     flex-direction: row;
     justify-content: center;
     color: #a0a0a0;
-    border-top: solid #a0a0a0;
+    border-top: 1rem solid #a0a0a0;
     
 
 
