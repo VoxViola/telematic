@@ -1,0 +1,15 @@
+.par {
+    color: white;
+    background-color: #222630;
+    font-size: x-large;
+    font-weight: lighter;
+    padding: 3%;
+}
+
+#about {
+    background-color: #222630;
+}
+
+a:link {
+    color: #313131;
+}

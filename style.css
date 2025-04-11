@@ -9,16 +9,23 @@ html, body {
     margin: 0%;
     padding: 0%;
     height: 100%;
-    padding: env(safe-area-inset-top) 
-             env(safe-area-inset-right) 
-             env(safe-area-inset-bottom) 
-             env(safe-area-inset-left);
+    background-image: url(./pictures/tcWebBackground3.jpg);
+    background-size: auto 100%;
+}
+
+a:link {
+    color: #a0a0a0;
+}
+
+a:visited {
+    color: #a0a0a0;
 }
 
 .top {
     background-color: #222630;
     margin: 0%;
     padding: 0%;
+    
 }
 
 .header {
@@ -58,7 +65,6 @@ html, body {
     flex-direction: row;
     justify-content: center;
     color: #a0a0a0;
-    padding: 2% 0%;
     border-top: solid #a0a0a0;
     
 
@@ -66,8 +72,9 @@ html, body {
 }
 
 .link {
-    padding: 0% 4%;
-    font-size: large;
+    padding: 2% 4%;
+    font-size: x-large;
+    font-weight: lighter;
     
 }
 
@@ -76,8 +83,6 @@ html, body {
     margin-top: 0%;
     justify-content: center;
     padding: 10%;
-    background-image: url(./pictures/tcWebBackground3.jpg);
-    background-size: auto 100%;
 }
 
 .image {
