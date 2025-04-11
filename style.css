@@ -18,6 +18,15 @@ a, a:link, a:visited, a:active {
     text-decoration: none;
 }
 
+/* text background */
+.par {
+    color: white;
+    background-color: #222630;
+    font-size: x-large;
+    font-weight: lighter;
+    padding: 1%;
+}
+
 .top {
     background-color: #222630;
     margin: 0%;
