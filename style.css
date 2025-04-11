@@ -40,13 +40,13 @@ a, a:link, a:visited, a:active {
     font-weight: lighter;
     font-size: xx-large;
     text-wrap: nowrap;
-    padding: 0% 3%;
+    padding: 0% 0%;
     padding-top: 2%;
 }
 
 .quote  {
     font-style: italic;
-    padding: 0% 3%;
+    padding: 0% 0%;
     padding-bottom: 3%;
     padding-top: 1%;
 }
@@ -68,7 +68,7 @@ a, a:link, a:visited, a:active {
 }
 
 .link {
-    padding: 2% 4%;
+    padding: 2% 0%;
     font-size: x-large;
     font-weight: lighter;
     
