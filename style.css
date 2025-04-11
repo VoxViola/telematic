@@ -10,13 +10,16 @@ html, body {
     height: 100%;
     background-image: url(./pictures/tcWebBackground3.jpg);
     background-size: auto 100%;
+    padding: env(safe-area-inset-top) 
+             env(safe-area-inset-right) 
+             env(safe-area-inset-bottom) 
+             env(safe-area-inset-left);
 }
 
 .top {
     background-color: #222630;
     margin: 0%;
     padding: 0%;
-    padding-top: env(safe-area-inset-top);
 }
 
 .header {
