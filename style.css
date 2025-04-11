@@ -5,11 +5,10 @@
 
 html, body {
     box-sizing: border-box;
+    background-color: #222630;
     margin: 0%;
     padding: 0%;
     height: 100%;
-    background-image: url(./pictures/tcWebBackground3.jpg);
-    background-size: auto 100%;
     padding: env(safe-area-inset-top) 
              env(safe-area-inset-right) 
              env(safe-area-inset-bottom) 
@@ -51,6 +50,7 @@ html, body {
 
 .logoLinks {
     border-color: white;
+    
 }
 
 .links {
@@ -73,10 +73,11 @@ html, body {
 
 .middle {
     display: flex;
-
     margin-top: 0%;
     justify-content: center;
     padding: 10%;
+    background-image: url(./pictures/tcWebBackground3.jpg);
+    background-size: auto 100%;
 }
 
 .image {
