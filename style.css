@@ -14,7 +14,8 @@ html, body {
 }
 
 a, a:link, a:visited, a:active {
-    color: #a0a0a0;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .top {
@@ -72,7 +73,7 @@ a, a:link, a:visited, a:active {
 
 .link {
     padding: 2% 0%;
-    font-size: x-large;
+    font-size: large;
     font-weight: lighter;
     
     
