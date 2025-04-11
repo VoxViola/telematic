@@ -42,6 +42,7 @@ a, a:link, a:visited, a:active {
     text-wrap: nowrap;
     padding: 0% 0%;
     padding-top: 2%;
+    padding-left: 3%;
 }
 
 .quote  {
@@ -49,6 +50,7 @@ a, a:link, a:visited, a:active {
     padding: 0% 0%;
     padding-bottom: 3%;
     padding-top: 1%;
+    padding-left: 3%;
 }
 
 .logoLinks {
@@ -61,7 +63,8 @@ a, a:link, a:visited, a:active {
     flex-direction: row;
     justify-content: center;
     color: #a0a0a0;
-    border-top: 1rem solid #a0a0a0;
+    border-top: .1rem solid #a0a0a0;
+    gap: 3%;
     
 
 
@@ -71,6 +74,7 @@ a, a:link, a:visited, a:active {
     padding: 2% 0%;
     font-size: x-large;
     font-weight: lighter;
+    
     
 }
 
