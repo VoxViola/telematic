@@ -21,6 +21,10 @@ a:visited {
     color: #a0a0a0;
 }
 
+a:active {
+    color: #a0a0a0;
+}
+
 .top {
     background-color: #222630;
     margin: 0%;
