@@ -1,3 +1,23 @@
 #about {
     color: #636262;
 }
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.aboutText {
+    background-color: #222630;
+    padding: 2%
+}
+
+p {
+    display: flex;
+    color: white;
+    font-weight: lighter;
+    font-size: larger;
+    flex-direction: column;
+    background-color: #222630;
+}

@@ -18,6 +18,10 @@ a, a:link, a:visited, a:active {
     text-decoration: none;
 }
 
+a:hover {
+    color: #ababab;
+}
+
 /* text background */
 .par {
     color: white;
@@ -92,7 +96,8 @@ a, a:link, a:visited, a:active {
     display: flex;
     margin-top: 0%;
     justify-content: center;
-    padding: 10%;
+    padding: 5% 10%;
+    height: auto;
 }
 
 .image {
@@ -100,12 +105,7 @@ a, a:link, a:visited, a:active {
 }
 
 .poster {
-    height: 50%;
-    width: 50%;
-   
-    
-}
-
-.footer {
-    background-color: #343a49;
+    display: flex;
+    height: 100%;
+    width: auto;   
 }
