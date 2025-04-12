@@ -22,6 +22,34 @@ a:hover {
     color: #ababab;
 }
 
+p {
+    text-align: center;
+}
+
+mark {
+    background-color: #222630;
+    font: lighter;
+    font-size: x-large;
+    font-weight: lighter;
+    color: white;
+    padding: 0%;
+    margin: 0%;
+    border-style: solid;
+    border-color: #222630;
+    border-radius: 7px;
+    border-width: 8px;
+    
+}
+
+.italic {
+    font-style: italic;
+}
+
+.intro  {
+    padding: 2%;
+    padding-bottom: 5%;
+}
+
 /* text background */
 .par {
     color: white;
@@ -94,18 +122,28 @@ a:hover {
 
 .middle {
     display: flex;
+    flex-direction: column;
     margin-top: 0%;
     justify-content: center;
     padding: 5% 10%;
     height: auto;
+
 }
 
 .image {
     display: flex;
 }
 
-.poster {
+.video {
     display: flex;
-    height: 100%;
-    width: auto;   
+    justify-content: center;
+    height: auto;
+    width: 100%;
+}
+.youtube {
+    aspect-ratio: 16 / 9;
+    width: 90%;
+    max-width: 960px;
+    height: auto;
+    border: none;
 }
