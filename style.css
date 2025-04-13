@@ -11,6 +11,8 @@ html, body {
     height: 100%;
     background-image: url(./pictures/tcWebBackground4.jpg);
     background-size: 100% 100%;
+
+    
 }
 
 a, a:link, a:visited, a:active {
@@ -53,14 +55,17 @@ p {
 }
 
 .top {
-    background-color: #222630;
     margin: 0%;
     padding: 0%;
+    
+    
     
 }
 
 .header {
     background-color: #222630;
+    background-image: url(./pictures/tcHeader1.jpg);
+    background-size: 100% 100%;
     
 }
 
@@ -120,7 +125,8 @@ p {
     justify-content: center;
     padding: 5% 10%;
     height: auto;
-
+    border-top: .1rem solid #a0a0a0;
+    
 }
 
 .image {
